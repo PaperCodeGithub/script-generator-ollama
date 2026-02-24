@@ -1,0 +1,153 @@
+.home-container {
+  width: 100%;
+  color: #e2e8f0;
+}
+
+.home-section {
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.home-content {
+  max-width: 1024px;
+  width: 100%;
+}
+
+
+.intro-section {
+  min-height: 70vh;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(180deg, #1a1a1a 0%, #2b2b2b 100%);
+}
+
+.home-title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.highlight {
+  color: #f16363; 
+}
+
+.home-subtitle {
+  font-size: 1.25rem;
+  color: #9a9a9a;
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.6;
+}
+
+.home-cta-btn {
+  background-color: #be0303;
+  color: white;
+  padding: 1rem 2.5rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.home-cta-btn:hover {
+  background-color: #8f0202;
+  transform: translateY(-2px);
+}
+
+.home-content-shadow{
+  max-width: 1024px;
+  width: 100%;
+  background-color: #303030;
+  border-radius: 30px;
+  padding: 3rem;
+}
+
+.usage-section {
+  background-color: #1a1a1a;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.usage-section h2, .about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.step-card {
+  background-color: #2b2b2b;
+  border: 1px solid #000000;
+  border-radius: 1rem;
+  padding: 2rem;
+  position: relative;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+}
+
+.step-number {
+  background-color: #be0303;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.step-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.step-card p {
+  color: #9a9a9a;
+  line-height: 1.5;
+}
+
+.about-section {
+  background-color: #2b2b2b;
+  border-top: 1px solid #000000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.about-text {
+  font-size: 1.125rem;
+  color: #d1d1d1;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.social-links {
+  margin-top: 1.5rem;
+}
+
+.social-links a {
+  color: #be0303;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: #d1d1d1;
+}
