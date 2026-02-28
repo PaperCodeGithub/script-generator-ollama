@@ -27,8 +27,29 @@
   cursor: pointer;
 }
 
-.sg-logo-icon {
+.sg-nav-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  transform: translate(0px, 0px);
+}
+
+.sg-nav-logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  transform: translate(0px, 0px);
+}
+
+.sg-logo-text {
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sg-logo-icon img {
+  height: 40px; 
 }
 
 .sg-nav-menu {

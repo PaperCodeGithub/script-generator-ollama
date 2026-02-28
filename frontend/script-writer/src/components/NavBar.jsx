@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/NavBarStyle.css';
-
+import logo from "../assets/logo.png";
 export default function Navbar({ currentPage, setCurrentPage }) {
   const [isOpen, setIsOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('home');
@@ -31,7 +31,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
           className="sg-nav-logo" 
           onClick={() => handleNavClick('home', null, 'home')}
         >
-          <span className="sg-logo-icon">🎬</span>
+          <span className="sg-logo-icon"><img src={logo} alt="Directero Logo" /></span>
           <span className="sg-logo-text">DIRECTERO</span>
         </div>
 
